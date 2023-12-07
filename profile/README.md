@@ -30,14 +30,12 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
- - is-shared-array-buffer - [![github][github]](https://github.com/inspect-js/is-shared-array-buffer) - [![npm][npm]](https://npmjs.com/is-shared-array-buffer) - Is this value a JS SharedArrayBuffer?
  - is-string - [![github][github]](https://github.com/inspect-js/is-string) - [![npm][npm]](https://npmjs.com/is-string) - Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-symbol - [![github][github]](https://github.com/inspect-js/is-symbol) - [![npm][npm]](https://npmjs.com/is-symbol) - Determine if a value is an ES6 Symbol or not.
  - is-typed-array - [![github][github]](https://github.com/inspect-js/is-typed-array) - [![npm][npm]](https://npmjs.com/is-typed-array) - Is this value a JS Typed Array? This module works cross-realm/iframe, does not depend on `instanceof` or mutable properties, and despite ES6 Symbol.toStringTag.
  - is-weakmap - [![github][github]](https://github.com/inspect-js/is-weakmap) - [![npm][npm]](https://npmjs.com/is-weakmap) - Is this value a JS WeakMap? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-weakref - [![github][github]](https://github.com/inspect-js/is-weakref) - [![npm][npm]](https://npmjs.com/is-weakref) - Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-weakset - [![github][github]](https://github.com/inspect-js/is-weakset) - [![npm][npm]](https://npmjs.com/is-weakset) - Is this value a JS WeakSet? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
- - is-well-known-symbol - [![github][github]](https://github.com/inspect-js/is-well-known-symbol) - [![npm][npm]](https://npmjs.com/is-well-known-symbol) - Is this value a well-known Symbol?
 
 </details>
 
