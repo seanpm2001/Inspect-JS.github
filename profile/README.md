@@ -79,7 +79,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-template-literals - [![github][github]](https://github.com/inspect-js/has-template-literals) - [![npm][npm]](https://npmjs.com/has-template-literals) - Determine if the JS environment has template literal support.
  - has-tostringtag - [![github][github]](https://github.com/inspect-js/has-tostringtag) - [![npm][npm]](https://npmjs.com/has-tostringtag) - Determine if the JS environment has `Symbol.toStringTag` support. Supports spec, or shams.
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
- - hasown - [![github][github]](https://github.com/inspect-js/hasOwn) - [![npm][npm]](https://npmjs.com/hasown) - A robust, ES3 compatible, "has own property" predicate.
  - node-exports-info - [![github][github]](https://github.com/inspect-js/node-exports-info) - [![npm][npm]](https://npmjs.com/node-exports-info) - Info about node `exports` field support: version ranges, categories, etc.
  - supports-preserve-symlinks-flag - [![github][github]](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - [![npm][npm]](https://npmjs.com/supports-preserve-symlinks-flag) - Determine if the current node version supports the `--preserve-symlinks` flag.
 
@@ -91,7 +90,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that tell you about a specific JS value.</summary>
 <br />
 
- - array-buffer-byte-length - [![github][github]](https://github.com/inspect-js/array-buffer-byte-length) - [![npm][npm]](https://npmjs.com/array-buffer-byte-length) - Get the byte length of an ArrayBuffer, even in engines without a `.byteLength` method.
  - get-symbol-description - [![github][github]](https://github.com/inspect-js/get-symbol-description) - [![npm][npm]](https://npmjs.com/get-symbol-description) - Gets the description of a Symbol. Handles `Symbol()` vs `Symbol('')` properly when possible.
  - object-inspect - [![github][github]](https://github.com/inspect-js/object-inspect) - [![npm][npm]](https://npmjs.com/object-inspect) - string representations of objects in node and the browser
  - typed-array-byte-length - [![github][github]](https://github.com/inspect-js/typed-array-byte-length) - [![npm][npm]](https://npmjs.com/typed-array-byte-length) - Robustly get the byte length of a Typed Array
