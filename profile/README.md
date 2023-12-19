@@ -32,7 +32,9 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-shared-array-buffer - [![github][github]](https://github.com/inspect-js/is-shared-array-buffer) - [![npm][npm]](https://npmjs.com/is-shared-array-buffer) - Is this value a JS SharedArrayBuffer?
  - is-string - [![github][github]](https://github.com/inspect-js/is-string) - [![npm][npm]](https://npmjs.com/is-string) - Is this value a JS String object or primitive? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
+ - is-symbol - [![github][github]](https://github.com/inspect-js/is-symbol) - [![npm][npm]](https://npmjs.com/is-symbol) - Determine if a value is an ES6 Symbol or not.
  - is-typed-array - [![github][github]](https://github.com/inspect-js/is-typed-array) - [![npm][npm]](https://npmjs.com/is-typed-array) - Is this value a JS Typed Array? This module works cross-realm/iframe, does not depend on `instanceof` or mutable properties, and despite ES6 Symbol.toStringTag.
+ - is-weakmap - [![github][github]](https://github.com/inspect-js/is-weakmap) - [![npm][npm]](https://npmjs.com/is-weakmap) - Is this value a JS WeakMap? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-weakref - [![github][github]](https://github.com/inspect-js/is-weakref) - [![npm][npm]](https://npmjs.com/is-weakref) - Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-weakset - [![github][github]](https://github.com/inspect-js/is-weakset) - [![npm][npm]](https://npmjs.com/is-weakset) - Is this value a JS WeakSet? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-well-known-symbol - [![github][github]](https://github.com/inspect-js/is-well-known-symbol) - [![npm][npm]](https://npmjs.com/is-well-known-symbol) - Is this value a well-known Symbol?
@@ -58,11 +60,15 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
 <summary>Packages that tell you about the JS env.</summary>
 <br />
 
+ - available-regexp-flags - [![github][github]](https://github.com/inspect-js/available-regexp-flags) - [![npm][npm]](https://npmjs.com/available-regexp-flags) - Which regular expression flags does the current environment support?
  - available-typed-arrays - [![github][github]](https://github.com/inspect-js/available-typed-arrays) - [![npm][npm]](https://npmjs.com/available-typed-arrays) - Returns an array of Typed Array names that are available in the current environment
  - functions-have-names - [![github][github]](https://github.com/inspect-js/functions-have-names) - [![npm][npm]](https://npmjs.com/functions-have-names) - Does this JS environment support the `name` property on functions?
+ - has-bigints - [![github][github]](https://github.com/inspect-js/has-bigints) - [![npm][npm]](https://npmjs.com/has-bigints) - Determine if the JS environment has BigInt support.
+ - has-dynamic-import - [![github][github]](https://github.com/inspect-js/has-dynamic-import) - [![npm][npm]](https://npmjs.com/has-dynamic-import) - Does the current environment have `import()` support?
  - has-object-spread - [![github][github]](https://github.com/inspect-js/has-object-spread) - [![npm][npm]](https://npmjs.com/has-object-spread) - check if the environment supports { ...a } spread syntax
  - has-optional-chaining - [![github][github]](https://github.com/inspect-js/has-optional-chaining) - [![npm][npm]](https://npmjs.com/has-optional-chaining) - Determine if the JS environment has optional chaining support
  - has-override-mistake - [![github][github]](https://github.com/inspect-js/has-override-mistake) - [![npm][npm]](https://npmjs.com/has-override-mistake) - Determine whether the environment has the so-called "override mistake" - [[Set]]ing a property whose ancestor is nonwritable throws.
+ - has-package-exports - [![github][github]](https://github.com/inspect-js/has-package-exports) - [![npm][npm]](https://npmjs.com/has-package-exports) - Does the current node version have support for the "exports" field in package.json?
  - has-package-imports - [![github][github]](https://github.com/inspect-js/has-package-imports) - [![npm][npm]](https://npmjs.com/has-package-imports) - Does the current node version have support for the "imports" field in package.json?
  - has-package-self-reference - [![github][github]](https://github.com/inspect-js/has-package-self-reference) - [![npm][npm]](https://npmjs.com/has-package-self-reference) - Does the current node version have support for requiring/importing its own name?
  - has-private-fields - [![github][github]](https://github.com/inspect-js/has-private-fields) - [![npm][npm]](https://npmjs.com/has-private-fields) - Determine if the JS environment has private fields (`class { #x; }`) support.
