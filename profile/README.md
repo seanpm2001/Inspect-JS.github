@@ -26,7 +26,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - is-negative-zero - [![github][github]](https://github.com/inspect-js/is-negative-zero) - [![npm][npm]](https://npmjs.com/is-negative-zero) - Is this value negative zero? === will lie to you
  - is-number-object - [![github][github]](https://github.com/inspect-js/is-number-object) - [![npm][npm]](https://npmjs.com/is-number-object) - Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
  - is-object - [![github][github]](https://github.com/inspect-js/is-object) - [![npm][npm]](https://npmjs.com/is-object) - Checks whether a value is an object
- - is-package-root - [![github][github]](https://github.com/inspect-js/is-package-root) - [![npm][npm]](https://npmjs.com/is-package-root) - Is this directory path the root of a package?
  - is-regex - [![github][github]](https://github.com/inspect-js/is-regex) - [![npm][npm]](https://npmjs.com/is-regex) - Is this value a JS regex? Works cross-realm/iframe, and despite ES6 @@toStringTag
  - is-registered-symbol - [![github][github]](https://github.com/inspect-js/is-registered-symbol) - [![npm][npm]](https://npmjs.com/is-registered-symbol) - Is this value a Symbol stored in the global cross-realm Symbol registry?
  - is-set - [![github][github]](https://github.com/inspect-js/is-set) - [![npm][npm]](https://npmjs.com/is-set) - Is this value a JS Set? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
@@ -81,7 +80,6 @@ This github and [npm](https://npmjs.com/~inspect-js) organization houses JavaScr
  - has-typed-arrays - [![github][github]](https://github.com/inspect-js/has-typed-arrays) - [![npm][npm]](https://npmjs.com/has-typed-arrays) - Does this environment have JS Typed Arrays?
  - hasown - [![github][github]](https://github.com/inspect-js/hasOwn) - [![npm][npm]](https://npmjs.com/hasown) - A robust, ES3 compatible, "has own property" predicate.
  - node-exports-info - [![github][github]](https://github.com/inspect-js/node-exports-info) - [![npm][npm]](https://npmjs.com/node-exports-info) - Info about node `exports` field support: version ranges, categories, etc.
- - supports-preserve-symlinks-flag - [![github][github]](https://github.com/inspect-js/node-supports-preserve-symlinks-flag) - [![npm][npm]](https://npmjs.com/supports-preserve-symlinks-flag) - Determine if the current node version supports the `--preserve-symlinks` flag.
 
 </details>
 
